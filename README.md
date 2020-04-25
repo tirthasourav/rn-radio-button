@@ -34,4 +34,4 @@ import { RadioButton } from 'rn-radio-button';
 
 # Screenshot
 
-![ScreenShot](https://raw.githubusercontent.com/tirthasourav/react-native-custom-button/master/screenshots/custom_button.png)
+![ScreenShot](https://github.com/tirthasourav/rn-radio-button/blob/master/src/screenshot/Screenshot%202020-04-26%20at%2012.52.16%20AM.png)

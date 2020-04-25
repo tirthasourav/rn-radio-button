@@ -13,10 +13,10 @@ import { RadioButton } from 'rn-radio-button';
   items={this.state.items} 
   selectedKey={this.state.selectedKey} 
   onPress={this.setState.bind(this)} 
-  // orientation='vertical'
-  // buttonPosition='right'
-  // selectedButtonStyle={styles.selectedRb}
-  // buttonStyle={styles.radioCircle}
+  orientation='vertical'
+  buttonPosition='right'
+  selectedButtonStyle={styles.selectedRb}
+  buttonStyle={styles.radioCircle}
   />`
   
   # Properties

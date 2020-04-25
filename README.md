@@ -34,4 +34,8 @@ npm i rn-customizable-radio-button
 
 # Screenshot
 
-![ScreenShot](https://github.com/tirthasourav/rn-radio-button/blob/master/src/screenshot/Screenshot%202020-04-26%20at%2012.52.16%20AM.png)
+![ScreenShot](https://raw.githubusercontent.com/tirthasourav/rn-radio-button/master/src/screenshot/Screenshot%202020-04-26%20at%2012.52.16%20AM.png)
+
+
+# Keywords
+radio-button, customizable-radio-button, react-native-customizable-radio-button, react-native

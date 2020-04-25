@@ -12,8 +12,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "rn-customizable-radio-button": "^1.0.0",
-    "rn-radio-button": "file:../rn-radio-button-1.0.0.tgz"
+    "rn-customizable-radio-button": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

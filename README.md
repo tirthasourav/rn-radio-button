@@ -3,11 +3,11 @@ One can customize the radio buttons using custom color, button styles, orientati
 
 # Setup
 
-npm i rn-radio-button
+npm i rn-customizable-radio-button
 
 # Usages
 
-import { RadioButton } from 'rn-radio-button';
+npm i rn-customizable-radio-button
 
 ` <RadioButton 
   items={this.state.items} 

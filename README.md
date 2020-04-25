@@ -1,4 +1,4 @@
-# rn-radio-button
+# rn-customizable-radio-button
 One can customize the radio buttons using custom color, button styles, orientation or button positions. The developer has full control to customize all the properties of the radio buttons.
 
 # Setup

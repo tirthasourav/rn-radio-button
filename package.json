@@ -1,6 +1,6 @@
 {
   "name": "rn-customizable-radio-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "customizable radio button component for react native",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,12 @@
     "radio-button",
     "react-native",
     "rn-customizable-radio-button",
-    "customizable-radio-button"
+    "customizable-radio-button",
+    "react-component",
+    "ios",
+    "android",
+    "radio",
+    "button"
   ],
   "author": "Sourav Dey",
   "license": "ISC",

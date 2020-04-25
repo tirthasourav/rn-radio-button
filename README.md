@@ -12,7 +12,7 @@ npm i rn-customizable-radio-button
 ` <RadioButton 
   items={this.state.items} 
   selectedKey={this.state.selectedKey} 
-  onPress={this.setState.bind(this)} 
+  onPress={this.onValueChange.bind(this)} 
   orientation='vertical'
   buttonPosition='right'
   selectedButtonStyle={styles.selectedRb}
@@ -25,7 +25,7 @@ npm i rn-customizable-radio-button
 | ------------|:--------------:| :-------:|:--------:|:-----:|
 | items     | Array | NA | Required | The Array of the items or check checklist with key-value pair
 | selectedKey     | String | Empty String | Required | The key of the selected item
-| onPress     | Function | NA | Required | Function Called onpress of the radio button, typically this.setState.bind(this)
+| onPress     | Function | NA | Required | Function Called onpress of the radio button
 | orientation     | String | horizontal | Optional | Orientation of the Radio Button View, can be set to vertical or horizontal
 | buttonPosition     | String | left | Optional | Position of the radio button with respect to the text, can be set to right or left
 | selectedButtonStyle     | Object | NA | Optional | styles for the selected radio button

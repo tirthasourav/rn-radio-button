@@ -22,6 +22,9 @@ export default class App extends React.Component {
     }
   }
   
+  onValueChange(key, value) {
+    this.setState({ selectedKey: key });
+  }
 
   render() {
     return(
@@ -30,7 +33,7 @@ export default class App extends React.Component {
         <RadioButton 
         items={this.state.items} 
         selectedKey={this.state.selectedKey} 
-        onPress={this.setState.bind(this)} 
+        onPress={this.onValueChange.bind(this)} 
         // orientation='vertical'
         // buttonPosition='right'
         // selectedButtonStyle={styles.selectedRb}
@@ -40,7 +43,7 @@ export default class App extends React.Component {
         <RadioButton 
         items={this.state.items} 
         selectedKey={this.state.selectedKey} 
-        onPress={this.setState.bind(this)} 
+        onPress={this.onValueChange.bind(this)} 
         // orientation='vertical'
         buttonPosition='right'
         selectedButtonStyle={styles.selectedRb}
@@ -50,7 +53,7 @@ export default class App extends React.Component {
         <RadioButton 
         items={this.state.items} 
         selectedKey={this.state.selectedKey} 
-        onPress={this.setState.bind(this)} 
+        onPress={this.onValueChange.bind(this)} 
         orientation='vertical'
         // buttonPosition='right'
         // selectedButtonStyle={styles.selectedRb}
@@ -60,7 +63,7 @@ export default class App extends React.Component {
         <RadioButton 
         items={this.state.items} 
         selectedKey={this.state.selectedKey} 
-        onPress={this.setState.bind(this)} 
+        onPress={this.onValueChange.bind(this)} 
         orientation='vertical'
         buttonPosition='right'
         selectedButtonStyle={styles.selectedRb1}

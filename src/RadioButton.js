@@ -30,7 +30,7 @@ const RadioButton = ({
                             : 
                             buttonStyle !== undefined ? buttonStyle : styles.radioCircle
                         }
-                        onPress={()=>onPress({ selectedKey: res.key, selectedValue: res.value })}
+                        onPress={()=>onPress(res.key, res.value)}
                         />
                     </View>
                     :
@@ -42,7 +42,7 @@ const RadioButton = ({
                             : 
                             buttonStyle !== undefined ? buttonStyle : styles.radioCircle
                         }
-                        onPress={()=>onPress({ selectedKey: res.key, selectedValue: res.value })}
+                        onPress={()=>onPress(res.key, res.value)}
                         />
                         <Text style={textStyle !== undefined ? textStyle : styles.radioText}>{res.value}</Text>
                     </View>

@@ -1,5 +1,5 @@
 {
-  "name": "rn-radio-button",
+  "name": "rn-customizable-radio-button",
   "version": "1.0.0",
   "description": "customizable radio button component for react native",
   "main": "index.js",

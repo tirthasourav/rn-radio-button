@@ -11,7 +11,7 @@ import {
   View,
   Text
 } from 'react-native';
-import {RadioButton} from 'rn-radio-button';
+import {RadioButton} from 'rn-customizable-radio-button';
 
 export default class App extends React.Component {
   constructor(props) {

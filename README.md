@@ -7,7 +7,7 @@ npm i rn-customizable-radio-button
 
 # Usages
 
-import { RAdioButton } from 'rn-customizable-radio-button';
+import { RadioButton } from 'rn-customizable-radio-button';
 
 ` <RadioButton 
   items={this.state.items} 

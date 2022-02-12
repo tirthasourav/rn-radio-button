@@ -1,11 +1,7 @@
-# Logs
-*.log
+# node.js
+#
+node_modules/
+package-lock.json
 npm-debug.log
-
-# Runtime data
-tmp
-build
-dist
-
-# Dependency directory
-node_modules
+yarn-error.log
+yarn.lock
